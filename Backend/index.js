@@ -4,6 +4,7 @@ const { connection } = require('./Connections/connect')
 
 dotenv.config()
 const PORT=process.env.PORT||8080
+app.use(express.json())
 
 app.get("/ping" ,(req,res)=>{
     res.send("Base Url")
