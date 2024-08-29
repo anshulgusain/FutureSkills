@@ -1,0 +1,57 @@
+.navbar{
+    width:auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    padding-right: 90px;
+    padding-left: 90px;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+   
+}
+.heading{
+    font-weight: 700;
+}
+.fakeButton button{
+    padding: 6px;
+    background-color: rgb(73, 71, 71);
+    color: white;
+    border-radius: 10px;
+    width:160px;
+    height: 35px;
+}
+.searchContainer{
+ position: relative;
+    background-color: rgb(156, 206, 226);
+    height: 300px;
+    top: 0%;
+}
+.how{
+    font-size: 50px;
+    font-weight: 400;
+}
+.searchbox{
+    padding: 10px;
+    width: 490px;
+    border-radius: 5px;
+}
+.doSearch{
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+
+.cardcontainer{
+border: 1px solid black;
+width: 320px;
+
+margin: 50px;
+margin-left: 90px;
+display: grid;
+grid-template-columns:repeat(2,1fr);
+background-color: rgb(220, 232, 236);
+border-radius: 5px;
+}
